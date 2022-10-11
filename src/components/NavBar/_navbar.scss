@@ -76,7 +76,6 @@
         align-items: center;
         justify-content: center;
         animation: fIn 0.5s;
-        transition: all 0.5s ease;
         @include media-down(sm) {
             align-items: center;
         }
@@ -142,7 +141,6 @@
     padding-right: 3%;
     align-items: center;
     list-style: none;
-
     & li {
         width: 30%;
         height: 50%;
