@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-    baseURL: "https://houseplant-ecommerce.up.railway.app",
+    baseURL: "https://tame-crab-button.cyclic.app",
 });
 
 API.interceptors.request.use((req) => {
